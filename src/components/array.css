@@ -1,0 +1,9 @@
+.arr-container{
+    margin-top: 20px;
+    padding: 0px 5px;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    gap: 10px;
+    
+}

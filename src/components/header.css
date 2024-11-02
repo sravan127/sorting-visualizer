@@ -1,0 +1,78 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 20px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input-data {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.input-data label {
+    font-size: 14px;
+}
+
+.input-data .algo,
+.input-data input[type="number"] {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-data .algo {
+    width: 130px;
+    background-color: #e0e4f1;
+    color: #333;
+}
+
+.input-data input[type="number"] {
+    width: 70px;
+    background-color: #fff;
+}
+
+.go-button {
+    padding: 8px 16px;
+    background-color: #4e8cff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.go-button:hover {
+    background-color: #3b6cd1;
+}
+
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .input-data {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+}
